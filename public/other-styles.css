@@ -1,0 +1,6 @@
+.form-section {
+    background-image: url('./images/grass.svg');
+}
+.form-section__right {
+    background-image: url('./images/wood.svg');
+}

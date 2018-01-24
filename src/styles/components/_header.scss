@@ -1,0 +1,46 @@
+.header {
+  height: 40px;
+  background-color: rgb(29, 126, 29);
+  color: white;
+  font-family: 'Josefin Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__phone {
+  font-size: 2.4rem;
+  background-color: rgb(0, 80, 0);
+  padding: 1px 15px;
+}
+
+.header__call {
+  font-weight: 100;
+  margin-right: 100px;
+  background-color: rgb(0, 80, 0);
+  padding: 5px;
+  width: 100px;
+  border-radius: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__call:hover{
+  background-color: rgb(0, 34, 0);
+}
+
+@media screen and (max-width: 500px){
+  .header {
+    flex-direction: column;
+    height: 100px;
+  }
+  .header__call {
+    margin: -50px;
+  }
+  .header__left {
+    width: 100%;
+    text-align: center;
+  }
+}
+
