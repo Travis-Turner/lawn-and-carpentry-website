@@ -12,7 +12,7 @@ export const Header = ({ startLogout }) => (
       </div>
       <div className="header__right">
         <div className="header__call">
-          <p><i className="fa fa-phone"></i>&nbsp;CALL</p>
+          <p><a id="phone-number" href="+6062752369"><i className="fa fa-phone"></i>&nbsp;CALL</a></p>
         </div>
       </div>
   </header>

@@ -18,6 +18,7 @@ textarea::placeholder, input::placeholder{ /* Chrome, Firefox, Opera, Safari 10.
 }
 form {
     text-align: center;
+    transition: all 0.5s;
 }
 h3 {
     background-color: green;
@@ -70,6 +71,20 @@ h3 {
 }
 .fa-leaf {
     color: green;
+}
+//submitted form
+.flash {
+    color: white;
+    padding: 20px;
+}
+#submitted__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#request--button {
+    margin: 20px;
 }
 @media screen and (max-width: 500px){
     .form-section {
